@@ -1,0 +1,8 @@
+version: '3.8'
+
+services:
+  pricer_api:
+    build: .
+    ports:
+      - "443:7000"
+
