@@ -33,6 +33,6 @@ uWebApp
             clientsList.splice(index, 1);
         }
     }
-}).listen(7000, () => {
-    console.log("7000")
+}).listen(8080, () => {
+    console.log("8080")
 })
